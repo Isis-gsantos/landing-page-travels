@@ -1,0 +1,88 @@
+@media (max-width: 900px) {
+  .header .menu {
+    display: block;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header input:checked ~ ul {
+    display: block;
+  }
+
+  .header nav {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    z-index: 1;
+  }
+
+  .header nav ul {
+    width: 180px;
+    background-color: #f4f1de;
+    padding: 15px;
+  }
+
+  .header nav ul a {
+    text-align: center;
+    padding: 20px;
+    display: block;
+  }
+}
+
+@media (max-width:768px) {
+  .travel-plans {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (max-width:425px) {
+  .first-look {
+    height: 65vh;
+  }
+  .first-look h2 {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .about .item {
+    text-align: center;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .services .service p {
+    font-size: 1.6rem;
+    max-width: 300px;
+  }
+
+  .travel-plans {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .footer nav {
+    margin: 30px;
+  }
+
+  .footer nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer nav ul li {
+    margin: 10px 0;
+  }
+
+  .footer .social a {
+    font-size: 2.5rem;
+  }
+}

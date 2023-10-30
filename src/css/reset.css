@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: 300;
+  color: var(--black);
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
